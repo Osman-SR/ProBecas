@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding:0;
+}
+a:link{
+	color:white;text-decoration:none
+}
+a:visited{
+	color:white;text-decoration:none}
+a:hover{
+	color:white;text-decoration:none}
+
+body{
+	background: #FFF;
+}
+form{
+	margin:20px;
+	width:25%;
+	padding: 25px;
+	border: 1px solid #ccc;
+	position: left;
+	
+}
+
+
+
+.main, .logotipo{
+	margin:20px auto;
+	width:100%;
+	
+	
+	
+}
+
+.main .articles{
+	width: 70%;
+	float: right;
+}
+
+label{
+	font-size: 14px;
+	display: block;
+	width: 100%;
+}
+h2{
+	text-align: center;
+	margin-bottom: 30px;
+	color: rgba(0,0,0,0.5);
+	
+}
+input:focus {
+border: 1px solid #1668c4;
+}
+
+input, select{
+	display:block;
+	padding: 5px;
+	width: 100%;
+	margin: 15px 0;
+	font-size: 15px;
+}
+
+input[type="submit"]{
+	color:#fff;
+	background: linear-gradient(#8B0000, #8B0000);
+	border:0;
+	opacity: 0.8;
+	cursor:pointer;
+	border-radius: 5px;
+	margin-bottom:0;
+	width: 60%;
+	
+	}
+input[type="submit"]:hover{
+	opacity:1;
+}
+a:active{
+	transparent:scale(0.95);
+}
+
+input[type="submit"]:active{
+	transparent:scale(0.95);
+}
+
+.main .article{
+	width: 65%;
+	float: left;
+	background: #fff;
+	
+	
+}
+
+
+}
